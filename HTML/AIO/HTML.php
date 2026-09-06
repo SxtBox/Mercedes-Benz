@@ -13,6 +13,7 @@ Checkbox turbo → kontrollon tuning ose jo dhe shfaq këshillat pas montimit.
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kontrollo Pjesë & Turbo</title>
+<link rel="shortcut icon" href="https://kodi.al/favicon.ico"/>
 <style>
 :root {
     --lime: #b7ff00;
@@ -193,7 +194,7 @@ input[type="checkbox"] { accent-color: var(--lime); margin: 3px 0 0; }
     <p class="card-copy">Analizo formatin e numrit dhe identifiko markën e mundshme.</p>
     <div class="input-wrapper">
         <input type="text" id="partInput" name="partNumber" maxlength="32" autocomplete="off" placeholder="p.sh. A2710901480" aria-label="Numri i pjesës">
-        <img id="logoPjese" class="logo" src="" alt="Logo">
+        <img id="logoPjese" class="logo" src="logos/caution.png" alt="Logo">
     </div>
     <div id="suggestion">💡 Shkruani numrin e pjesës...</div>
     <button type="submit">Kontrollo Pjesën</button>
